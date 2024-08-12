@@ -10,10 +10,11 @@ Foundry consists of:
 -   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
 ## Documentation
-Contract address: 0xFEc780DED573e6D4511f2Fe97D1fF4A2a18Cf58C
 https://book.getfoundry.sh/
 
-## Usage
+## Address
+- 0xFEc780DED573e6D4511f2Fe97D1fF4A2a18Cf58C
+- 0x408862F8B0ccBFd6903F7A87121D18B337AFFF5B
 
 ### Build
 
