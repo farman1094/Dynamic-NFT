@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="no"?><svg width="1024px" height="1024px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="#333" d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"/><path fill="#E6E6E6" d="M512 140c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zM288 421a48.01 48.01 0 0 1 96 0 48.01 48.01 0 0 1-96 0zm376 272h-48.1c-4.2 0-7.8-3.2-8.1-7.4C604 636.1 562.5 597 512 597s-92.1 39.1-95.8 88.6c-.3 4.2-3.9 7.4-8.1 7.4H360a8 8 0 0 1-8-8.4c4.4-84.3 74.5-151.6 160-151.6s155.6 67.3 160 151.6a8 8 0 0 1-8 8.4zm24-224a48.01 48.01 0 0 1 0-96 48.01 48.01 0 0 1 0 96z"/><path fill="#333" d="M288 421a48 48 0 1 0 96 0 48 48 0 1 0-96 0zm224 112c-85.5 0-155.6 67.3-160 151.6a8 8 0 0 0 8 8.4h48.1c4.2 0 7.8-3.2 8.1-7.4 3.7-49.5 45.3-88.6 95.8-88.6s92 39.1 95.8 88.6c.3 4.2 3.9 7.4 8.1 7.4H664a8 8 0 0 0 8-8.4C667.6 600.3 597.5 533 512 533zm128-112a48 48 0 1 0 96 0 48 48 0 1 0-96 0z"/></svg>
+
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500"> <text x="0"y="15"fill="black">Hi! Your browser decoded this</text> </svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500"><text x="0" y="15" fill="black">Hi! Your browser decoded this</text></svg>
+
+
+j
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRw
+Oi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCI+DQo8dGV4
+dCB4PSIwIiB5PSIxNSIgZmlsbD0iYmxhY2siPkhpISBZb3VyIGJyb3dzZXIgZGVjb2RlZCB0aGlz
+PC90ZXh0Pg0KPC9zdmc+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500"><text x="0" y="15" fill="black">Hi! Your browser decoded this</text></svg>
+
+forge script script/Interactions.s.sol:MintBasicNft --rpc-url $ANVIL_RPC_URL --private-key $ANVIL_PKEY --broadcast -vvvv
+forge script script/Interactions.s.sol:MintMoodNft --rpc-url $ANVIL_RPC_URL --private-key $ANVIL_PKEY --broadcast -vvvv
+forge script script/Interactions.s.sol:MintMoodNft --rpc-url $SEPOLIA_RPC_URL --account farman --broadcast -vvvv
+forge script script/DeployMoodNft.s.sol:DeployMoodNft --rpc-url $ANVIL_RPC_URL --private-key $ANVIL_PKEY --broadcast -vvvv
+forge script script/DeployMoodNft.s.sol:DeployMoodNft --rpc-url $SEPOLIA_RPC_URL --account farman --broadcast --verify --etherscan-api-key $ESCAN_API_KEY -vvvv
+forge script script/DeployMoodNft.s.sol:DeployMoodNft --rpc-url $SEPOLIA_RPC_URL --account account2 --broadcast --verify --etherscan-api-key $ESCAN_API_KEY -vvvv
+forge script script/Interactions.s.sol:MintBasicNft --rpc-url $SEPOLIA_RPC_URL --account farman --broadcast --verify --etherscan-api-key $ESCAN_API_KEY -vvvv
+
+$ forge verify-contract 0xC88e48D32e74aD3b85248FE20EAe381137F54a4B src/MoodNft.sol:MoodNft --etherscan-api-key $ESCAN_API_KEY --rpc-url $SEPOLIA_RPC_URL --show-standard-json-input
+
+test -f "/e/Solidity Projects July/NFT/test/unit/DeployMoodNftTest.t.sol" && echo "File exists." || echo "File does not exist."
+ls -l /e/Solidity Projects July/NFT/test/unit/DeployMoodNftTest.t.sol
+
+if test -f "/path/to/new/folder/DeployMoodNftTest.t.sol"; then
+    echo "File exists at /path/to/new/folder/DeployMoodNftTest.t.sol"
+else
+    echo "File does not exist."
+fi
+
+data:image/svg+xml;base64,
+PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg0KPHN2ZyB3aWR0aD0iMTAyNHB4
+IiBoZWlnaHQ9IjEwMjRweCIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93
+d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgPHBhdGggZmlsbD0iIzMzMyIgZD0iTTUxMiA2NEMyNjQu
+NiA2NCA2NCAyNjQuNiA2NCA1MTJzMjAwLjYgNDQ4IDQ0OCA0NDggNDQ4LTIwMC42IDQ0OC00NDhT
+NzU5LjQgNjQgNTEyIDY0em0wIDgyMGMtMjA1LjQgMC0zNzItMTY2LjYtMzcyLTM3MnMxNjYuNi0z
+NzIgMzcyLTM3MiAzNzIgMTY2LjYgMzcyIDM3Mi0xNjYuNiAzNzItMzcyIDM3MnoiLz4NCiAgPHBh
+dGggZmlsbD0iI0U2RTZFNiIgZD0iTTUxMiAxNDBjLTIwNS40IDAtMzcyIDE2Ni42LTM3MiAzNzJz
+MTY2LjYgMzcyIDM3MiAzNzIgMzcyLTE2Ni42IDM3Mi0zNzItMTY2LjYtMzcyLTM3Mi0zNzJ6TTI4
+OCA0MjFhNDguMDEgNDguMDEgMCAwIDEgOTYgMCA0OC4wMSA0OC4wMSAwIDAgMS05NiAwem0zNzYg
+MjcyaC00OC4xYy00LjIgMC03LjgtMy4yLTguMS03LjRDNjA0IDYzNi4xIDU2Mi41IDU5NyA1MTIg
+NTk3cy05Mi4xIDM5LjEtOTUuOCA4OC42Yy0uMyA0LjItMy45IDcuNC04LjEgNy40SDM2MGE4IDgg
+MCAwIDEtOC04LjRjNC40LTg0LjMgNzQuNS0xNTEuNiAxNjAtMTUxLjZzMTU1LjYgNjcuMyAxNjAg
+MTUxLjZhOCA4IDAgMCAxLTggOC40em0yNC0yMjRhNDguMDEgNDguMDEgMCAwIDEgMC05NiA0OC4w
+MSA0OC4wMSAwIDAgMSAwIDk2eiIvPg0KICA8cGF0aCBmaWxsPSIjMzMzIiBkPSJNMjg4IDQyMWE0
+OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwLTk2IDB6bTIyNCAxMTJjLTg1LjUgMC0xNTUuNiA2
+Ny4zLTE2MCAxNTEuNmE4IDggMCAwIDAgOCA4LjRoNDguMWM0LjIgMCA3LjgtMy4yIDguMS03LjQg
+My43LTQ5LjUgNDUuMy04OC42IDk1LjgtODguNnM5MiAzOS4xIDk1LjggODguNmMuMyA0LjIgMy45
+IDcuNCA4LjEgNy40SDY2NGE4IDggMCAwIDAgOC04LjRDNjY3LjYgNjAwLjMgNTk3LjUgNTMzIDUx
+MiA1MzN6bTEyOC0xMTJhNDggNDggMCAxIDAgOTYgMCA0OCA0OCAwIDEgMC05NiAweiIvPg0KPC9z
+dmc+
+data:application/json;base64,
+ew0KICAgICJuYW1lIjogIk1vb2QgTkZUIiwNCiAgICAiZGVzY3JpcHRpb24iOiAiQW4gTkZUIHRo
+YXQgcmVmbGVjdHMgdGhlIG93bmVyIG1vb2QiLA0KICAgICJhdHRyaWJ1dGVzIjogWw0KICAgICAg
+ICB7DQogICAgICAgICAgICAidHJhaXRfdHlwZSI6ICJtb29kaW5lc3MiLA0KICAgICAgICAgICAg
+InZhbHVlIjogMTAwDQogICAgICAgIH0NCiAgICBdLA0KICAgICJpbWFnZSI6ICJkYXRhOmltYWdl
+L3N2Zyt4bWw7YmFzZTY0LFBEOTRiV3dnZG1WeWMybHZiajBpTVM0d0lpQnpkR0Z1WkdGc2IyNWxQ
+U0p1YnlJL1BnMEtQSE4yWnlCM2FXUjBhRDBpTVRBeU5IQjRJaUJvWldsbmFIUTlJakV3TWpSd2VD
+SWdkbWxsZDBKdmVEMGlNQ0F3SURFd01qUWdNVEF5TkNJZ2VHMXNibk05SW1oMGRIQTZMeTkzZDNj
+dWR6TXViM0puTHpJd01EQXZjM1puSWo0TkNpQWdQSEJoZEdnZ1ptbHNiRDBpSXpNek15SWdaRDBp
+VFRVeE1pQTJORU15TmpRdU5pQTJOQ0EyTkNBeU5qUXVOaUEyTkNBMU1USnpNakF3TGpZZ05EUTRJ
+RFEwT0NBME5EZ2dORFE0TFRJd01DNDJJRFEwT0MwME5EaFROelU1TGpRZ05qUWdOVEV5SURZMGVt
+MHdJRGd5TUdNdE1qQTFMalFnTUMwek56SXRNVFkyTGpZdE16Y3lMVE0zTW5NeE5qWXVOaTB6TnpJ
+Z016Y3lMVE0zTWlBek56SWdNVFkyTGpZZ016Y3lJRE0zTWkweE5qWXVOaUF6TnpJdE16Y3lJRE0z
+TW5vaUx6NE5DaUFnUEhCaGRHZ2dabWxzYkQwaUkwVTJSVFpGTmlJZ1pEMGlUVFV4TWlBeE5EQmpM
+VEl3TlM0MElEQXRNemN5SURFMk5pNDJMVE0zTWlBek56SnpNVFkyTGpZZ016Y3lJRE0zTWlBek56
+SWdNemN5TFRFMk5pNDJJRE0zTWkwek56SXRNVFkyTGpZdE16Y3lMVE0zTWkwek56SjZUVEk0T0NB
+ME1qRmhORGd1TURFZ05EZ3VNREVnTUNBd0lERWdPVFlnTUNBME9DNHdNU0EwT0M0d01TQXdJREFn
+TVMwNU5pQXdlbTB6TnpZZ01qY3lhQzAwT0M0eFl5MDBMaklnTUMwM0xqZ3RNeTR5TFRndU1TMDNM
+alJETmpBMElEWXpOaTR4SURVMk1pNDFJRFU1TnlBMU1USWdOVGszY3kwNU1pNHhJRE01TGpFdE9U
+VXVPQ0E0T0M0Mll5MHVNeUEwTGpJdE15NDVJRGN1TkMwNExqRWdOeTQwU0RNMk1HRTRJRGdnTUNB
+d0lERXRPQzA0TGpSak5DNDBMVGcwTGpNZ056UXVOUzB4TlRFdU5pQXhOakF0TVRVeExqWnpNVFUx
+TGpZZ05qY3VNeUF4TmpBZ01UVXhMalpoT0NBNElEQWdNQ0F4TFRnZ09DNDBlbTB5TkMweU1qUmhO
+RGd1TURFZ05EZ3VNREVnTUNBd0lERWdNQzA1TmlBME9DNHdNU0EwT0M0d01TQXdJREFnTVNBd0lE
+azJlaUl2UGcwS0lDQThjR0YwYUNCbWFXeHNQU0lqTXpNeklpQmtQU0pOTWpnNElEUXlNV0UwT0NB
+ME9DQXdJREVnTUNBNU5pQXdJRFE0SURRNElEQWdNU0F3TFRrMklEQjZiVEl5TkNBeE1USmpMVGcx
+TGpVZ01DMHhOVFV1TmlBMk55NHpMVEUyTUNBeE5URXVObUU0SURnZ01DQXdJREFnT0NBNExqUm9O
+RGd1TVdNMExqSWdNQ0EzTGpndE15NHlJRGd1TVMwM0xqUWdNeTQzTFRRNUxqVWdORFV1TXkwNE9D
+NDJJRGsxTGpndE9EZ3VObk01TWlBek9TNHhJRGsxTGpnZ09EZ3VObU11TXlBMExqSWdNeTQ1SURj
+dU5DQTRMakVnTnk0MFNEWTJOR0U0SURnZ01DQXdJREFnT0MwNExqUkROalkzTGpZZ05qQXdMak1n
+TlRrM0xqVWdOVE16SURVeE1pQTFNek42YlRFeU9DMHhNVEpoTkRnZ05EZ2dNQ0F4SURBZ09UWWdN
+Q0EwT0NBME9DQXdJREVnTUMwNU5pQXdlaUl2UGcwS1BDOXpkbWMrIg0KfQ==
